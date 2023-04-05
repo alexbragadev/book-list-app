@@ -1,16 +1,19 @@
 <?xml version="1.0"?>
-<testsuite name="Chrome 111.0.0.0 (Windows 10)" package="" timestamp="2023-04-04T16:41:57" id="0" hostname="LBR-PE07D07A" tests="6" errors="0" failures="0" time="0.069">
+<testsuite name="Chrome 111.0.0.0 (Windows 10)" package="" timestamp="2023-04-05T17:46:39" id="0" hostname="LBR-PE07D07A" tests="8" errors="0" failures="0" time="0.053">
   <properties>
     <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"/>
   </properties>
-  <testcase name="CartComponent getTotalPrice returns an amount" time="0.049" classname="Chrome_111_0_0_0_(Windows_10).CartComponent"/>
+  <testcase name="HomeComponent getBooks get books from the subscription" time="0.016" classname="Chrome_111_0_0_0_(Windows_10).HomeComponent"/>
+  <testcase name="HomeComponent should create" time="0.004" classname="Chrome_111_0_0_0_(Windows_10).HomeComponent"/>
+  <testcase name="CartComponent onInputNumberChange decrements correctly" time="0.012" classname="Chrome_111_0_0_0_(Windows_10).CartComponent"/>
   <testcase name="CartComponent should create" time="0.005" classname="Chrome_111_0_0_0_(Windows_10).CartComponent"/>
-  <testcase name="CartComponent onInputNumberChange decrements correctly" time="0.006" classname="Chrome_111_0_0_0_(Windows_10).CartComponent"/>
-  <testcase name="CartComponent _clearListCartBook works correctly" time="0.003" classname="Chrome_111_0_0_0_(Windows_10).CartComponent"/>
   <testcase name="CartComponent onInputNumberChange increments correctly" time="0.003" classname="Chrome_111_0_0_0_(Windows_10).CartComponent"/>
-  <testcase name="CartComponent onClearBooks works correctly" time="0.003" classname="Chrome_111_0_0_0_(Windows_10).CartComponent"/>
+  <testcase name="CartComponent getTotalPrice returns an amount" time="0.004" classname="Chrome_111_0_0_0_(Windows_10).CartComponent"/>
+  <testcase name="CartComponent onClearBooks works correctly" time="0.007" classname="Chrome_111_0_0_0_(Windows_10).CartComponent"/>
+  <testcase name="CartComponent _clearListCartBook works correctly" time="0.002" classname="Chrome_111_0_0_0_(Windows_10).CartComponent"/>
   <system-out>
-    <![CDATA[
+    <![CDATA[Chrome 111.0.0.0 (Windows 10) LOG: 3
+
 ]]>
   </system-out>
   <system-err/>
